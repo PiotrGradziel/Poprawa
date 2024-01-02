@@ -1,0 +1,268 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>7 Biggest Countries</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<style>
+
+#adContainer {
+      position: fixed;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #f1f1f1;
+      padding: 10px;
+      border-left: 2px solid #ccc;
+      box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+      z-index: 9999;
+    }
+
+    #cancelButton {
+      cursor: pointer;
+      float: right;
+      font-weight: bold;
+      font-size: 20px;
+      color: #333;
+      transition: color 0.3s;
+    }
+
+    #cancelButton:hover {
+      color: red;
+    }
+  </style>
+	<body class="is-preload">
+		<div id="adContainer">
+			<span id="cancelButton" onclick="cancelAd()">X</span>
+			<p>Piotr Gradziel 2ta</p>
+		  </div>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Piotr Gradziel</strong> <span>2ta</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="landing.html">Info</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>7 Biggest Countries</h1>
+							</header>
+							<div class="content">
+								<p>Biggest Countries On Earth</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/Flag-Russia.jpg" alt="Russia" />
+									</span>
+									<header class="major">
+										<h3><a href="russia.html" class="link">Russia</a></h3>
+										<p>Number 1</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/Flag-Canada.jpg" alt="Canada" />
+									</span>
+									<header class="major">
+										<h3><a href="canada.html" class="link">Canada</a></h3>
+										<p>Number 2</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/china-flag.jpg" alt="China" />
+									</span>
+									<header class="major">
+										<h3><a href="china.html" class="link">China</a></h3>
+										<p>Number 3</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/Flag-US.jpg" alt="United States" />
+									</span>
+									<header class="major">
+										<h3><a href="us.html" class="link">United States</a></h3>
+										<p>Number 4</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/Flag-Brazil.jpg" alt="Brazil" />
+									</span>
+									<header class="major">
+										<h3><a href="brazil.html" class="link">Brazil</a></h3>
+										<p>Number 5</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/Flag-Australia.jpg" alt="Australia" />
+									</span>
+									<header class="major">
+										<h3><a href="australia.html" class="link">Australia</a></h3>
+										<p>Number 6</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/Flag-India.jpg" alt="India" />
+									</span>
+									<header class="major">
+										<h3><a href="india.html" class="link">India</a></h3>
+										<p>Number 7</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic06.jpg" alt="Photo Gallery" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Read More</a></h3>
+										<p>Click to read more</p>
+									</header>
+								</article>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Learn More</h2>
+									</header>
+									<p>Learn more about the countries here:</p>
+									<p><a href="https://www.worldometers.info/geography/largest-countries-in-the-world/" target="_blank" class="link">Click Me</a></p>
+									<ul class="actions">
+										<li><a href="landing.html" class="button next">Read More</a></li>
+									</ul>
+								</div>
+							</section>
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<label for="name">Your Name:</label>
+										<input type="text" id="name" name="name" required>
+								
+										<label for="email">Your Email:</label>
+										<input type="email" id="email" name="email" required>
+								
+										<label for="reviewTitle">Review Title:</label>
+										<input type="text" id="reviewTitle" name="reviewTitle" required>
+								
+										<label for="rating">Rating:</label>
+										<select id="rating" name="rating" required>
+											<option value="5">5 - Excellent</option>
+											<option value="4">4 - Very Good</option>
+											<option value="3">3 - Good</option>
+											<option value="2">2 - Fair</option>
+											<option value="1">1 - Poor</option>
+										</select>
+								
+										<label for="comments">Comments:</label>
+										<textarea id="comments" name="comments" rows="4" required></textarea>
+								
+										<button type="submit">Submit Review</button>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Name</h3>
+										<p>Piotr Grądziel</p>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Class</h3>
+										<p>2ta</p>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Co to</h3>
+										<p>Strona o 7 ...</p>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<p>Piotr Grądziel 2ta</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+		<script>
+			function cancelAd() {
+			  var adContainer = document.getElementById("adContainer");
+			  adContainer.style.display = "none";
+			}
+		  
+			function changeColor() {
+    		var adContainer = document.getElementById("adContainer");
+    		var randomColor = getRandomColor();
+    		adContainer.style.backgroundColor = randomColor;
+    		setTimeout(changeColor, 1000); // Change color every second
+  			}
+		  
+			function getRandomColor() {
+			  var letters = "0123456789ABCDEF";
+			  var color = "#";
+			  for (var i = 0; i < 6; i++) {
+				color += letters[Math.floor(Math.random() * 16)];
+			  }
+			  return color;
+			}
+		  
+			// Start changing color when the page loads
+			changeColor();
+		  </script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
